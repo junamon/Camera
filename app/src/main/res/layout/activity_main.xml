@@ -7,10 +7,32 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ice_pbru.duangsang.junamon.camera.MainActivity">
+    tools:context="ice_pbru.duangsang.junamon.camera.MainActivity"
+    android:background="@drawable/pg">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMERA"
+        android:id="@+id/textView"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/h1"
+        android:textColor="#2a33aa" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT ME"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/h2" />
+
+    <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/listView"
+        android:layout_below="@+id/textView"
+        android:layout_above="@+id/button"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
 </RelativeLayout>
