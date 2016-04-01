@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ice_pbru.duangsang.junamon.camera.MainActivity"
-    android:background="@drawable/pg">
+    android:background="#cbf7afd4">
 
     <TextView
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
         android:id="@+id/textView"
         android:gravity="center_horizontal"
         android:textSize="@dimen/h1"
-        android:textColor="#2a33aa" />
+        android:textColor="#af0f79" />
 
     <Button
         android:layout_width="match_parent"
@@ -25,7 +25,8 @@
         android:text="ABOUT ME"
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
-        android:textSize="@dimen/h2" />
+        android:textSize="@dimen/h2"
+        android:textColor="#a51363" />
 
     <ListView
         android:layout_width="wrap_content"
